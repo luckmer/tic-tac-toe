@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Grid {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+}
+
+.Grid div {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    font-size: 40px;
+    width: 100px;
+    margin: 15px;
+    height: 100px;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    border: 2px solid #808080;
+    transition: all .1s linear;
+    cursor: pointer;
+}
+
+.Grid div:hover {
+    background-color: #bbb;
+}
+
+.button {
+    margin-top: 20px;
+    width: 150px;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 5%;
+}
+
+
+.result {
+    font-size: 40px;
+}
